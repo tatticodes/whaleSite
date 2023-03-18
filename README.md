@@ -1,2 +1,2 @@
 # whaleSite
-Site dedicated to whales
+site dedicated to whales
