@@ -16,10 +16,11 @@
         <a href="./index.html" target="_parent">Home</a>
         <a href="./pagetwo.html" target="_parent">Photo Gallery</a>
         <a href="./pagethree.html" target="_parent">Tour</a>
-        <a href="contact">Contacts</a>
+        <a href="./pagefour.html">Contacts</a>
     </div>
     <form action="/form-handling-url" method="post"></form>
     <fieldset>
+        <legend>Questionnaire for the tour</legend>
         <div>
             <label for="firstName">Name</label>
             <input type="text" id="firstName" alt="first-name">
@@ -29,14 +30,31 @@
             <input type="text" id="lastName" alt="last-name">
         </div>
         <div>
-            <input type="checkbox" id="checkAgree">
-            <label for="checkAgree">I am 18 years old</label>
+            <input type="radio" name="checkAgree" value="yes">I am 18 years old
+            <input type="radio" name="checkAgree" value="no">I am not 18 years old
         </div>
         <div>
-            <input type="checkbox" id="checkAgree">
-            <label for="checkAgree">I am not 18 years old</label>
+            <label for="dateTour">Tour Date</label>
+            <input type="date" name="dateTour" id="dateTour">
         </div>
-
+        <p>Additions to the tour</p>
+        <div>
+            <input type="checkbox" id="addTour" name="lunch">
+            <label for="addTour">Extra Lunch</label>
+        </div>
+        <div>
+            <input type="checkbox" id="addTour" name="cityTour">
+            <label for="addTour">City tour</label>
+        </div>
+        <div>
+            <input type="checkbox" id="addTour" name="whaleSouv">
+            <label for="addTour">Whale souvenirs</label>
+        </div>
+        <div>
+            <label for="wishes">Your wishes</label>
+            <textarea name="wishesArea" id="wishes" cols="30" rows="10"></textarea>
+        </div>
+        <button type="submit">Submit</button>
     </fieldset>
 </body>
 
