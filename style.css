@@ -4,8 +4,53 @@
     padding: 0;
 }
 
-/*header*/
 body {
     background-color: #F6F1F1;
     font-family: 'Montserrat', sans-serif;
+}
+
+/* Header */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.logo-img {
+    width: 100px;
+    height: 100px;
+}
+
+button {
+    width: 200px;
+    height: 30px;
+    background-color: #19a7ce;
+    border: #19a7ce;
+    border-radius: 10px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* Navigaton Bar */
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #19a7ce;
+    padding: 20px 0;
+    border-style: solid none;
+    color: black;
+}
+
+a {
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
