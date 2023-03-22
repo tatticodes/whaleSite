@@ -10,6 +10,8 @@ body {
 
 }
 
+/*PageOne*/
+
 /* Header */
 .header {
     display: flex;
@@ -36,6 +38,7 @@ button {
     border-radius: 10px;
     font-family: 'Montserrat', sans-serif;
     font-weight: bold;
+    margin: 10px;
 }
 
 /* Navigaton Bar */
@@ -62,7 +65,6 @@ a {
 }
 
 h1 {
-    margin-top: 30px;
     font-family: 'Lato', sans-serif;
 }
 
@@ -79,21 +81,64 @@ h2 {
 .whale-img {
     width: 700px;
     height: auto;
-    margin: 30px;
+    margin: 20px 0;
     border-radius: 5px;
 }
 
 .inf_whale {
     border-style: dotted;
     padding: 10px;
-    margin: 15px 100px;
+    margin: 20px 100px;
 }
 
 p {
     margin: 5px 0;
+    text-align: justify;
 }
 
 .whale-tail {
     display: block;
     margin: auto;
+}
+
+/*PageTwo*/
+.photoBank {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+}
+
+.photo {
+    width: 400px;
+    height: 380px;
+    margin: 15px;
+    border-radius: 15px;
+    border-style: groove;
+    border-color: #19a7ce;
+}
+
+.citat {
+    text-align: center;
+}
+
+/*Tour*/
+fieldset {
+    width: 450px;
+    height: 600px;
+    margin: auto;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 5px 5px #146c94;
+
+}
+
+legend {
+    padding: 10px;
+    font-size: 20px;
+}
+
+input,
+textarea {
+    margin: 10px;
+    padding: 5px;
 }
